@@ -1,0 +1,20 @@
+body{
+    background-color: lightgreen;
+    width:800px;
+    text-align:centre;
+    margin:2px auto;
+}
+
+li{float:right;
+padding-right: 17px;
+}
+img{
+    max-width: 100%;
+}
+a{border:2px;
+    border-color: black;}
+    
+a.hover{
+    font-weight: bold;
+    
+}

@@ -1,0 +1,235 @@
+<html>
+
+<head>
+
+
+    <title>
+        My Portfolio Website
+    </title>
+
+    <style>
+        body {
+            background: url('images/1439879.jpg') no-repeat;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .navbar {
+            background-color: darksalmon;
+            width: 100vw;
+            border-radius: 10px;
+            position: fixed;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            padding: 5px;
+            border: 2px solid darkred;
+            margin: 3px 8px;
+            background-color: khaki;
+            font-weight: 100;
+            border-radius: 15px;
+        }
+
+        .navbar li:hover {
+            background-color: aliceblue;
+            cursor: pointer;
+        }
+
+        a {
+            color: rgb(41, 34, 34);
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .search {
+            float: right;
+        }
+
+        #uni {
+            margin: 10px 30px;
+        }
+
+        header {
+            display: inline;
+            text-align: center;
+        }
+
+        .sth {
+            cursor: pointer;
+            border: 3px solid darkred;
+        }
+
+        .main {
+            padding: 80px 0px 10px 0px;
+        }
+
+        .poo {
+            width: auto;
+            margin: auto;
+            margin-top: 0.2%;
+
+        }
+
+        .sq {
+            display: block;
+            margin: 10px auto 10px auto;
+            background-color: lightgreen;
+            box-sizing: border-box;
+            border: 3px solid darkred;
+            padding: 0px 8px;
+            width: 33%;
+        }
+
+        .Personal_Details {
+            background-color: lightgreen;
+            border: 3px solid darkred;
+            width: 50%;
+            margin: auto;
+            padding: 10px 10px;
+            text-align: center;
+        }
+
+        .box {
+            margin: auto;
+            width: 60%;
+        }
+
+        .inclass {
+            text-align: left;
+            padding: 2px 5px;
+        }
+
+        .sub-menu{
+            display: none; 
+        }
+
+        .navbar ul li:hover .sub-menu {
+            display: block; 
+            position:absolute;
+            background-color:darksalmon;
+            text-align: start;
+        }
+        .navbar ul li .sub-menu ul li{float:none;background-color: khaki;}
+        .navbar ul li .sub-menu li:hover{background-color: aliceblue;
+            cursor: pointer;text-decoration: underline;}
+            
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" target="_blank">Projects</a></li>
+            <li><a href="#">Message me</a></li>
+            <li><a href="#">Contacts</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li a href="#">Github</a></li>
+                        <li a href="#">Instagram</a></li>
+                        <li a href="#">Facebook</a></li>
+                        <li a href="#">Linkedin</a></li>
+                        <li a href="#">Twitter</a></li>
+                        <li a href="#">Whatsapp</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">About</a></li>
+            <div id="uni" class="search"><input type="text" id="search" class="search" placeholder="Search here">
+                <button class="search">Search</button>
+            </div>
+        </ul>
+    </div>
+
+    <div class="main">
+        <header>
+            <h1> Hello !</h1>
+            <p> I am Mohit Kumar, a web-designer based in Kolkata, West Bengal.</p>
+
+            <figure> <img src="images/Screenshot from 2022-08-19 13-38-56.png" alt="My_Photo" />
+            </figure>
+
+            <details class="sth">
+                <summary>About Me</summary>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, reiciendis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, excepturi! Neque, mollitia voluptate.
+                Incidunt,
+                rem enim molestias nesciunt, minus tempora, beatae libero praesentium unde fugit explicabo deserunt
+                debitis
+                la? In.
+            </details>
+            <hr>
+
+        </header>
+    </div>
+    <div class="poo">
+        <div class="sq">
+            <h4>Blogs</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit minus nam cumque laboriosam
+                necessitatibus! Temporibus, aperiam eaque? Autem repudiandae similique magnam earum porro et, aspernatur
+                facere dignissimos explicabo placeat! hgdgfkh sdhgsdhk dskhdg dsgugfgjd</p>
+        </div>
+        <div class="sq">
+            <h4>Our Affiliations</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quod nemo saepe modi libero sequi ipsum
+                atque dolorum, voluptates sed pariatur delectus animi cumque deserunt? Ad eos officia exercitationem
+                delectus pariatur nihil excepturi quidem ipsam nobipore dignissimos?</p>
+        </div>
+        <div class="sq">
+            <h4>History</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, blanditiis aut. Autem voluptatibus in
+                perspiciatis veniam totam, delectus voluptate officiis cupiditate id minus a, consectetur quas sequi
+                repellat obcaecati nobis commodi quam quisquam voluptas itaque repudiandae!</p>
+        </div>
+    </div>
+
+
+    <form action="#" class="Personal_Details">
+        <div class="box">
+            <div class="inclass">
+                <label style="font-weight: bold;">LEAVE A MESSAGE :)
+                    <hr>
+                    <hr>
+                </label>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inclass">
+                Gender:
+                <label for="Female">Female</label><input type="radio" name="Gender" id="Female">
+                <label for="Male">Male</label><input type="radio" name="Gender" id="Male">
+                <label for="Other">Other</label><input type="radio" name="Gender" id="Other">
+            </div>
+            <div class="inclass">
+                <input type="text" placeholder="Address">
+            </div>
+            <div class="inclass">
+                <label for="Date">Date: </label><input type="Date" id="Date">
+            </div>
+            <div class="inclass">
+                <input type="email" placeholder="e-mail">
+            </div>
+            <div class="inclass">
+                <textarea cols="28" rows="1">Put your message here</textarea>
+            </div>
+            <div class="inclass">
+                <button>Send</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>
