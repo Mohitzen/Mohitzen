@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on C++.<br>🌱 I’m currently learning JavaScript.<br>💬 Ask me about ... Anything (I might not have an answer though :p).<br>⚡ Fun fact: Bharat made its first supercomputer within 3 years.<br>✨ Coding is fun, love, adventure;
+🔭 I’m currently working on C++.<br>🌱 I’m currently learning JavaScript.<br>💬 Ask me about ... Anything (I might not have an answer though :p).<br>⚡ Fun fact: Bharat🇮🇳 made its first supercomputer within 3 years.<br>✨ Coding is fun, love, adventure;
 
 
 ## 🌐 Socials:
